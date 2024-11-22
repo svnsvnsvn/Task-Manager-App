@@ -16,7 +16,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-This command installs all the necessary dependencies for the app.\
+This command installs all the necessary dependencies for the app.
 
 ### `npm start`
 
