@@ -9,7 +9,7 @@ export const TodoForm = ({addTodo}) => {
             addTodo(value);
             setValue("");
         } else {
-            alert(`You have to do something!`)
+            alert(`You have to do something! :(`)
         }
 
     }
@@ -20,7 +20,7 @@ export const TodoForm = ({addTodo}) => {
             type = 'text'
             className = 'todo-input'
             value = {value}
-            placeholder='What is the task today?'
+            placeholder='What would you like to accomplish today?'
             onChange={(e) => setValue(e.target.value)}
             />
             <button

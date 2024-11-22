@@ -22,7 +22,7 @@ export const TodoWrapper = () => {
 
   return (
     <div className='TodoWrapper'>
-      <h1>Be Productive!</h1>
+      <h1>˖ . ݁𝜗𝜚. ݁₊Be Productive!˖ . ݁𝜗𝜚. ݁₊</h1>
         <TodoForm addTodo = {addTodo}/>
         {
           todos.map((todo, index) => (
